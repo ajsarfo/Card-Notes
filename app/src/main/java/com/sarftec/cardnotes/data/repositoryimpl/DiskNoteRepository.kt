@@ -27,6 +27,13 @@ class DiskNoteRepository @Inject constructor(
         }
     }
 
+    override suspend fun update(note: MetaNote) {
+        appDatabase.withTransaction {
+            appDatabase.noteDao().update(note.note)
+            appDatabase.metaDao().update(note.meta)
+        }
+    }
+
     override suspend fun delete(id: Int) {
         appDatabase.noteDao().delete(id)
     }

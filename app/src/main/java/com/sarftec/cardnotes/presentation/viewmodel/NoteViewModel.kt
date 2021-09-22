@@ -38,14 +38,15 @@ sealed class SearchNotification {
         var id = -1
 
         fun switch() {
-            id = if (id == -1)  0 else -1
+            id = if (id == -1) 0 else -1
         }
 
         override fun equals(other: Any?): Boolean {
             if (other !is Notify) return false
-            return other.id  == id
+            return other.id == id
         }
     }
+
     object Neutral : SearchNotification()
 }
 
@@ -114,7 +115,7 @@ class NoteViewModel @Inject constructor(
             it.clearField = true
             it.switch()
         }
-        if(notes.notes.size == stored.size) return
+        if (notes.notes.size == stored.size) return
         notes.notes = stored
         notes.switch()
         _notes.value = notes
@@ -147,10 +148,12 @@ class NoteViewModel @Inject constructor(
 
     private fun updateNote(response: NoteResponse.Update) {
         val notes = _notes.value ?: return
-        stored.firstOrNull { it.note.id == response.note.note.id }
-            ?.let { transferContent(response.note, it) }
-            ?.let { notes.notes = stored }
-            ?.let { _notification.value = Notification.Update(response.position) }
+        viewModelScope.launch {
+            stored.firstOrNull { it.note.id == response.note.note.id }
+                ?.let { transferContent(response.note, it) }
+                ?.let { notes.notes = stored }
+                ?.let { _notification.value = Notification.Update(response.position) }
+        }
     }
 
     private fun insertNote(response: NoteResponse.New) {
@@ -165,10 +168,10 @@ class NoteViewModel @Inject constructor(
         }
     }
 
-    private fun transferContent(from: MetaNote, to: MetaNote) {
+    private suspend fun transferContent(from: MetaNote, to: MetaNote) {
         to.note.title = from.note.title
         to.note.content = from.note.content
         to.meta.noteColor = from.meta.noteColor
+        repository.update(to)
     }
-
 }

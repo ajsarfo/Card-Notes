@@ -87,6 +87,10 @@ class TestNoteRepository @Inject constructor(
         return (0 until 100).random() to (0 until 100).random()
     }
 
+    override suspend fun update(note: MetaNote) {
+
+    }
+
     override suspend fun delete(id: Int) {
         notes.removeAll { it.note.id == id }
     }
