@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_toolbar">#FFFFFF</color>
+    <color name="color_on_toolbar">#171717</color>
+
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorPrimaryVariant">#0C0C0C</color>
+
+    <color name="background">@color/color_grey_lighter</color>
+
+    <color name="color_note_title">@color/item_title_text_color</color>
+    <color name="color_note_content">#494949</color>
+    <color name="color_note_date">@color/textColorSeconday</color>
+    <color name="color_note_background">@color/color_grey</color>
+
+    <color name="color_todo_mark">@color/black</color>
+    <color name="color_todo_mark_stroke">@color/black</color>
+    <color name="color_todo_mark_background">@color/white</color>
+    <color name="color_todo_card_background">@color/color_toolbar</color>
+
+    <color name="color_todo_completed">#8B8B8B</color>
+
+    <color name="color_todo_subtitle">@color/black</color>
+    <color name="color_todo_title">@color/black</color>
+
+    <color name="color_todo_title_cancel">#A4A1A1</color>
+    <color name="color_todo_title_strike">#5D5D5D</color>
+    <color name="color_todo_mark_cancel_background">#797979</color>
+    <color name="color_todo_mark_cancel">@color/white</color>
+
+    <color name="color_todo_sheet_drag">@color/color_light_white</color>
+
+    <color name="color_todo_icon_red">#D32F2F</color>
+
+    <color name="color_note_search_hint">@android:color/darker_gray</color>
+    <color name="color_note_search_text">@color/black</color>
+    <color name="color_note_search_icon">@color/color_note_search_hint</color>
+    <color name="color_note_cursor">#808080</color>
+
+    <color name="color_note_edit_title_hint">#2B2B2B</color>
+
+    <color name="color_delete_icon">@color/colorPrimary</color> <!-- 4D4D4D -->
+
+    <color name="color_note_default_background">#ffc5d1</color>
+
+    <color name="color_grey">#ebebeb</color>
+    <color name="color_grey_lighter">#f5f5f5</color>
+    <color name="color_light_white">#f2f5f6</color>
+
+    <!-- notepad configurations -->
+    <color name="item_black_color">#ff000000</color>
+    <color name="item_icon_disable_color">#80222222</color>
+    <color name="item_sub_text_color">#80222222</color>
+    <color name="item_text_color">#a6000000</color>
+    <color name="item_text_no_enable_color">#40000000</color>
+    <color name="item_title_text_color">#ff000000</color>
+    <color name="letter_color">#cc555555</color>
+    <color name="letter_select_color">#ffffff</color>
+    <color name="textColorSeconday">#66000000</color>
+    <color name="dashboard_recycle_item_background_default">#f3f3f3</color>
+</resources>

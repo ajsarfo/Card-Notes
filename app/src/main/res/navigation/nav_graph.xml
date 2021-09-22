@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/noteFragment">
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.sarftec.cardnotes.presentation.fragment.NoteFragment"
+        android:label="NoteFragment"
+        tools:layout="@layout/fragment_notes">
+        <action
+            android:id="@+id/action_noteFragment_to_todosFragment"
+            app:destination="@id/todosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todosFragment"
+        android:name="com.sarftec.cardnotes.presentation.fragment.TodoFragment"
+        android:label="TodosFragment"
+        tools:layout="@layout/fragment_todos" />
+</navigation>

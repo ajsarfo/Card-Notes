@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/drawable_note_card.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable/edit_note_title.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_cancel.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_check.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_check_cancel.xml" value="0.2401826484018265" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.24861111111111112" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_more.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/note_card.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/note_cursor.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/note_search.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/todo_background.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/todo_circular_shape.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/todo_delete.xml" value="0.2401826484018265" />
+        <entry key="app/src/main/res/drawable/todo_delete_button.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/todo_delete_sheet.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/todo_edit_background.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/drawable/todo_mark.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/todo_notification_large.xml" value="0.24675925925925926" />
+        <entry key="app/src/main/res/drawable/todo_notification_small.xml" value="0.24675925925925926" />
+        <entry key="app/src/main/res/drawable/todo_sheet_drag.xml" value="0.2401826484018265" />
+        <entry key="app/src/main/res/drawable/todo_sort_dialog_shape.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/todo_title_strike_through.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/layout/activity_edit_note.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_notes.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_todos.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/layout_color.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/layout_create_todo.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_delete_todo.xml" value="0.22916666666666666" />
+        <entry key="app/src/main/res/layout/layout_fragment_intro.xml" value="0.23425925925925925" />
+        <entry key="app/src/main/res/layout/layout_note.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_todo.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/layout_todo_delete.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_todo_delete_completed.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_todo_notification_collapsed.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/layout_todo_notification_expanded.xml" value="0.2324074074074074" />
+        <entry key="app/src/main/res/layout/layout_todo_sort_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.2578125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

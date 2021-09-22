@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="note_colors">
+        <item>#fee7ab</item>
+        <item>#ffdbc3</item>
+        <item>#ffc5d1</item>
+        <item>#e7d0f9</item>
+        <item>#cdccfe</item>
+        <item>#b5e9d3</item>
+        <item>#b3e5fd</item>
+        <item>#b5d8ff</item>
+        <item>#e5e5e5</item>
+        <item>#bcbcbc</item>
+    </string-array>
+</resources>

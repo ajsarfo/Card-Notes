@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_size">12dp</dimen>
+
+    <dimen name="delete_icon_size">22dp</dimen>
+    <dimen name="delete_icon_text_size">12sp</dimen>
+
+    <dimen name="todo_mark_size">20dp</dimen>
+
+    <dimen name="todo_delete_corners">26dp</dimen>
+
+    <dimen name="todo_completed_icon_padding">8dp</dimen>
+    <dimen name="todo_completed_delete_padding_left">12dp</dimen>
+    <dimen name="todo_completed_titles_size">16sp</dimen>
+
+    <dimen name="todo_sort_items_margin_top">16dp</dimen>
+
+    <dimen name="todo_sort_items_padding">6dp</dimen>
+
+    <dimen name="todo_cross_cancel_size">20dp</dimen>
+</resources>
