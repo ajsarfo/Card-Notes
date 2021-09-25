@@ -6,7 +6,7 @@
     app:startDestination="@id/noteFragment">
     <fragment
         android:id="@+id/noteFragment"
-        android:name="com.sarftec.cardnotes.presentation.fragment.NoteFragment"
+        android:name="com.sarftec.simplenotes.presentation.fragment.NoteFragment"
         android:label="NoteFragment"
         tools:layout="@layout/fragment_notes">
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/todosFragment"
-        android:name="com.sarftec.cardnotes.presentation.fragment.TodoFragment"
+        android:name="com.sarftec.simplenotes.presentation.fragment.TodoFragment"
         android:label="TodosFragment"
         tools:layout="@layout/fragment_todos" />
 </navigation>

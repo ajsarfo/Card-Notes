@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sarftec.cardnotes">
+    package="com.sarftec.simplenotes">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CardNotes"
-        android:name=".App">
+        android:name="com.sarftec.simplenotes.App">
         <activity
-            android:name="com.sarftec.cardnotes.presentation.activity.MainActivity"
+            android:name="com.sarftec.simplenotes.presentation.activity.MainActivity"
             android:windowSoftInputMode="adjustNothing"
             android:exported="true">
             <intent-filter>
@@ -22,7 +22,7 @@
         </activity>
 
         <activity
-            android:name="com.sarftec.cardnotes.presentation.activity.EditNoteActivity"
+            android:name="com.sarftec.simplenotes.presentation.activity.EditNoteActivity"
             android:windowSoftInputMode="adjustNothing"
             android:exported="true">
             <intent-filter>
@@ -31,7 +31,7 @@
         </activity>
 
         <receiver
-            android:name="com.sarftec.cardnotes.presentation.notify.NotifyAlarmReceiver"
+            android:name="com.sarftec.simplenotes.presentation.notify.NotifyAlarmReceiver"
             android:exported="true"
             android:enabled="true">
             <intent-filter>
@@ -40,7 +40,7 @@
         </receiver>
 
         <receiver
-            android:name="com.sarftec.cardnotes.presentation.notify.NotifyActionReceiver"
+            android:name="com.sarftec.simplenotes.presentation.notify.NotifyActionReceiver"
             android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />

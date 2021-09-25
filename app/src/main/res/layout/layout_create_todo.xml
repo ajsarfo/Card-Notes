@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.sarftec.cardnotes.presentation.viewmodel.TodoViewModel" />
+            type="com.sarftec.simplenotes.presentation.viewmodel.TodoViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

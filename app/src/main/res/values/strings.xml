@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">Card Notes</string>
+    <string name="app_name">Simple Notes</string>
     <string name="note_title">@string/app_name</string>
     <string name="todo_title">All to-dos</string>
     <string name="todo_subtitle">To-dos</string>
     <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate deserunt dolorem doloremque eaque eius enim est et fugit incidunt ipsa ipsum, labore laborum minima nam nisi obcaecati quasi quos repellat repudiandae tempore temporibus tenetur unde velit vitae voluptate voluptatibus voluptatum? Ad aperiam dignissimos enim ipsa, nemo voluptas.</string>
+
+    <string name="todo_intro_title">Add your first todo</string>
+    <string name="todo_intro_body">Any tasks to add? Add your first todo task by clicking on add button.</string>
+
+    <string name="note_intro_title">Create your first note</string>
+    <string name="note_intro_body">Any notes to add? Add your first note by clicking on add button.</string>
 </resources>

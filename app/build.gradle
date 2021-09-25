@@ -11,7 +11,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.sarftec.cardnotes"
+        applicationId "com.sarftec.simplenotes"
         minSdk 16
         targetSdk 30
         versionCode 1
@@ -55,9 +55,6 @@ dependencies {
 
     def multidex_version = "2.0.1"
     implementation "androidx.multidex:multidex:$multidex_version"
-
-    //Dependencies for datastore
-    implementation "androidx.datastore:datastore-preferences:1.0.0"
 
     //Dependency for Hilt
     implementation "com.google.dagger:hilt-android:$hilt_version"

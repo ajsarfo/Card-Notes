@@ -3,14 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="64dp"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text = "To-dos : "
-        android:textSize="18sp"
         android:gravity = "start"
         android:fontFamily="@font/primary_bold"
         style="@style/TextAppearance.Compat.Notification.Title" />
@@ -20,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginVertical="8dp"
+        android:layout_marginTop="4dp"
         style="@style/TextAppearance.Compat.Notification.Info"
         tools:text="# Go to the mall today"
         android:gravity="start"
