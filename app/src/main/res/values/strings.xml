@@ -1,4 +1,19 @@
 <resources>
+
+    <string name="admob_app_id">ca-app-pub-3112561146803951~5796055570</string>
+
+    <string name="admob_banner_test_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_test_id">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <string name="admob_main_banner_id">ca-app-pub-3112561146803951/5231883130</string>
+    <string name="admob_edit_banner_id">ca-app-pub-3112561146803951/7367447104</string>
+
+    <string name="admob_main_interstitial_id">ca-app-pub-3112561146803951/4741283769</string>
+    <string name="admob_edit_interstitial_id">ca-app-pub-3112561146803951/6134256485</string>
+
+    <string name="admob_open_app_id">@string/admob_banner_test_id</string>
+
     <string name="app_name">Simple Notes</string>
     <string name="note_title">@string/app_name</string>
     <string name="todo_title">All to-dos</string>

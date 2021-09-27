@@ -10,14 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CardNotes"
         android:name="com.sarftec.simplenotes.App">
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id"/>
+
         <activity
-            android:name="com.sarftec.simplenotes.presentation.activity.MainActivity"
+            android:name="com.sarftec.simplenotes.presentation.activity.StartActivity"
             android:windowSoftInputMode="adjustNothing"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sarftec.simplenotes.presentation.activity.MainActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 

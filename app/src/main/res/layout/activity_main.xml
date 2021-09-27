@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -122,53 +123,64 @@
             app:navGraph="@navigation/nav_graph" />
 
     <FrameLayout
-            android:id="@+id/parent_bottom_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+        android:id="@+id/parent_bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/main_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
-                android:id="@+id/bottom_nav_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:visibility="visible">
+            android:id="@+id/bottom_nav_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:visibility="visible">
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
-                    android:id="@+id/bottomNavigationView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:elevation="0dp"
-                    app:menu="@menu/menu" />
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp"
+                app:menu="@menu/menu" />
         </LinearLayout>
 
         <LinearLayout
-                android:id="@+id/delete_layout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:gravity="center_horizontal"
-                android:orientation="vertical"
-                android:visibility="gone"
-                tools:visibility="gone">
+            android:id="@+id/delete_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/delete_notes"
-                    android:layout_width="@dimen/delete_icon_size"
-                    android:layout_height="@dimen/delete_icon_size"
-                    app:srcCompat="@drawable/ic_delete" />
+                android:id="@+id/delete_notes"
+                android:layout_width="@dimen/delete_icon_size"
+                android:layout_height="@dimen/delete_icon_size"
+                app:srcCompat="@drawable/ic_delete" />
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:text="Delete"
-                    android:textColor="@color/color_delete_icon"
-                    android:textSize="@dimen/delete_icon_text_size" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Delete"
+                android:textColor="@color/color_delete_icon"
+                android:textSize="@dimen/delete_icon_text_size" />
         </LinearLayout>
     </FrameLayout>
 
+    <LinearLayout
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:background="@color/colorPrimary"
+        tools:layout_height="40dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

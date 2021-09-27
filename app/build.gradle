@@ -4,7 +4,6 @@ plugins {
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
     id 'kotlin-parcelize'
-    id 'androidx.navigation.safeargs'
 }
 
 android {
@@ -25,6 +24,11 @@ android {
 
     buildTypes {
         release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -47,7 +51,7 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
 
     implementation "androidx.activity:activity-ktx:1.3.1"
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
@@ -66,14 +70,19 @@ dependencies {
     implementation "androidx.room:room-ktx:2.4.0-alpha04"
     kapt "androidx.room:room-compiler:$room_version"
 
-    //Glide dependency
-    implementation 'com.github.bumptech.glide:glide:4.12.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
-
     // Navigation dependency Kotlin
     def nav_version = "2.3.5"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    //Admob dependency
+    implementation 'com.google.android.gms:play-services-ads:20.4.0'
+
+    //App review dependency
+    implementation 'com.google.android.play:core:1.10.2'
+
+    //Dependencies for datastore
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

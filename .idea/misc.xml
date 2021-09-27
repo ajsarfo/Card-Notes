@@ -7,13 +7,15 @@
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/intro_background.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/na_icon_selected.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/note_search.xml" value="0.25" />
+        <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/start_background.xml" value="0.2598958333333333" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/todo_background.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/todo_circular_shape.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/todo_delete_button.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/todo_sort_dialog_shape.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/drawable/todo_title_strike_through.xml" value="0.25" />
-        <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/activity_edit_note.xml" value="0.1" />
-        <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/activity_main.xml" value="0.2296875" />
+        <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/activity_edit_note.xml" value="0.25" />
+        <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/activity_start.xml" value="0.2296875" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/fragment_notes.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/fragment_todos.xml" value="0.2296875" />
         <entry key="..\:/Users/Sarfo/AndroidStudioProjects/Card-Notes/app/src/main/res/layout/layout_intro.xml" value="0.22" />
